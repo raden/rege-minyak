@@ -42,7 +42,7 @@ else
 fi
 
 if [[ $(bc -l <<< "${minyak[7]} <= ${minyaklama[2]}" ) -eq 1 ]]; then
-	printf "Beza DIESEL RM ${GREEN}$bezadiesel${NC} (sama/akin murah)\n"
+	printf "Beza DIESEL RM ${GREEN}$bezadiesel${NC} (sama/makin murah)\n"
 else	
 	printf "Beza DIESEL RM ${RED}$bezadiesel${NC} (makin mahal)\n"
 fi
